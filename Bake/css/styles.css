@@ -1,0 +1,648 @@
+/* BEGIN RESET DEFAULT */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* END RESET DEFAULT */
+
+/* BEGIN GENERRAL */
+.w-20-per {
+    width: 20%;
+}
+
+.w-25-per {
+    width: 25%;
+}
+
+.w-30-per {
+    width: 30%;
+}
+
+.w-35-per {
+    width: 35%;
+}
+
+.w-45-per {
+    width: 45%;
+}
+
+.w-50-per {
+    width: 50%;
+}
+
+.w-72-per {
+    width: 72%;
+}
+
+.w-100-per {
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.more-btn {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    background-color: #ff0e83;
+    border: solid;
+    border-color: whitesmoke;
+    border-radius: 0.5em;
+    cursor: pointer;
+    color: white;
+    width: 160px;
+    height: 45px;
+}
+
+/* END GENERRAL */
+
+/* BEGIN NAV */
+.nav-list {
+    background-color: #4e2a84;
+    height: 85px;
+    text-align: center;
+    margin: 0px;
+}
+
+.nav-list .nav-item .nav-item--logo {
+    font-size: 40px;
+    padding: 19px;
+}
+
+.nav-list .nav-item {
+    display: inline-block;
+    margin-right: 35px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 50px;
+    color: white;
+    cursor: pointer;
+    padding: 35px 0px;
+    letter-spacing: 2px;
+}
+
+.nav-list .nav-item:hover {
+    text-transform: uppercase;
+    color: red;
+}
+
+/* END NAV */
+
+/* BEGIN BANNER */
+/* END BANNER */
+
+/* BEGIN HOME */
+.home {
+    background-image: url(../images/b3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    color: white;
+    text-align: center;
+
+}
+
+.home .home-title {
+    font-weight: bolder;
+    font-size: 60px;
+    padding: 250px 0 0 0;
+}
+
+.home .home-dec {
+    font-size: 16px;
+    padding: 22px 0;
+}
+
+.home .more-btn:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+}
+
+/* END HOME */
+
+/* BEGIN ABOUT */
+.about-list .about-item {
+    height: 450px;
+}
+
+.about-list .about-item--pink {
+    background-color: #ff0e83;
+}
+
+.about-list .about-item--puppor {
+    background-color: #4e2a84;
+}
+
+.about-list .about-item--pink-milk {
+    background-color: #ed6498;
+}
+
+.about-list .about-item--puppor-milk {
+    background-color: #836eaa;
+}
+
+.about-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-item p {
+    color: whitesmoke;
+    text-align: center;
+    line-height: 30px;
+}
+
+.about-item .about-item-tilte {
+    font-size: 30px;
+    padding: 130px 0 0 0;
+}
+
+.about-item .about-item-dec {
+    font-size: 15px;
+    padding: 20px 20px 0;
+}
+
+/* END ABOUT */
+
+/* BEGIN RATING */
+.ratings {
+    padding: 80px;
+}
+
+.ratings .rating {
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.rating .rating-number {
+    color: #4e2a84;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.rating .rating-tilte {
+    font-size: 20px;
+}
+
+/* END RATING */
+
+/* BEGIN SERVICE */
+.our-services {
+    background-image: url(../images/s1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.our-services .tilte {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.services {
+    padding: 60px 200px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    border: #4e2a84;
+    border-style: solid;
+    margin: 0 84px;
+}
+
+.service .service-tilte {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+.service .service-detail {
+    font-size: 15px;
+    margin: 20px 0;
+    line-height: 30px;
+    padding: 15px;
+}
+
+/* END SERVICE */
+
+/* BEGIN GALLERY */
+.galaries {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.galaries .tilte {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin: 20px;
+}
+
+.galaries .galary--st {
+    background-image: url(../images/g1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    text-align: right;
+    margin: 0 30px 0 0;
+}
+
+.galaries .galary--nd {
+    background-image: url(../images/g2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    text-align: right;
+    margin: 0 30px 0 0;
+}
+
+.galaries .galary--rd {
+    background-image: url(../images/g3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    text-align: right;
+}
+
+.galaries .galary--fourth {
+    background-image: url(../images/g4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    text-align: right;
+    margin: 0 30px 0 0;
+}
+
+.galaries .galary--fifth {
+    background-image: url(../images/g5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    text-align: right;
+    margin: 0 30px 0 0;
+}
+
+.galaries .galary--sixth {
+    background-image: url(../images/g6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    text-align: right;
+}
+
+.galaries .galary-tilte {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    padding: 50px 30px 0 0;
+}
+
+.galaries .galary-tilte span {
+    font-weight: bold;
+}
+
+/* END GALLERY */
+
+/* BEGIN TEAM */
+.bake-team{
+    background-color: #4e2a84;
+    text-align: center;
+    margin-top: 50px;
+    padding: 70px;
+}
+
+.teams {
+    padding: 20px;
+    margin-top: 10px;
+    padding-left: 110px
+}
+
+.bake-team .tilte {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.teams .team--st {
+    background-image: url(../images/t1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    margin: 0 30px 0 0;
+}
+
+.teams .team--nd {
+    background-image: url(../images/t2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    margin: 0 30px 0 0;
+}
+
+.teams .team--rd {
+    background-image: url(../images/t3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+
+.teams .team--fourth {
+    background-image: url(../images/t4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    margin: 0 30px 0 0;
+}
+
+.teams .team--fifth {
+    background-image: url(../images/t1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    margin: 0 30px 0 0;
+}
+
+.teams .team--sixth {
+    background-image: url(../images/t2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+
+.teams .team-tilte {
+    height: 84px;
+    background-color: #ff0e83;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-top: 36px;
+    margin-top: 300px;
+}
+
+.team-tilte .name{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.team-tilte .position{
+    line-height: 25px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+/* END TEAM */
+
+/* BEGIN TESTIMONIAL */
+.testimonial {
+    background-image: url(../images/ab3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 40px;
+}
+
+.testimonial .tilte{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.testimonial .des {
+    margin: 40px 180px;
+    width: 70%;
+    border: 3px solid #ff0e83;
+    padding: 40px;
+    text-align: center;
+    background-color: #9cc7d242;
+}
+
+.testimonial .des .detail{
+    padding: auto;
+}
+/* END TESTIMONIAL */
+
+/* BEGIN CONTACT */
+.contact{
+    background-color: whitesmoke;
+    padding-top: 40px;
+}
+
+.contact .tilte{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.contact input{
+    height: 44px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+}
+
+.contact .name{
+    margin-top: 20px;
+}
+
+.name .firt-name{
+    margin-left: 190px;
+}
+
+.name .last-name{
+    margin-left: 20px;
+}
+
+.contact .info{
+    margin-top: 20px;
+}
+
+.info .email{
+    margin-left: 190px;
+}
+
+.info .phone{
+    margin-left: 20px;
+}
+
+.contact .msg{
+    margin-top: 20px;
+}
+
+.msg .message{
+    margin-left: 190px;
+}
+
+.contact button{
+    background-color: #ff0e83;
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: solid;
+    border-color: whitesmoke;
+    cursor: pointer;
+    color: black;
+    height: 50px;
+    margin: 20px 0px 40px 192px;
+}
+
+.contact button:hover{
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+}
+
+.contact .info-bake{
+    margin-top: 50px 0px;
+    padding: 30px;
+}
+
+.contact .info-bake .address{
+    margin-left: 260px;
+    text-align: center;
+}
+/* END CONTACT */
+
+/* BEGIN ABOUTUS */
+.about-us {
+    padding-top: 60px;
+    background-color: black;
+    color: white;
+}
+
+.about-us .title{
+    text-align: left;
+    cursor: pointer;
+    color: #ff0e83;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.about-us .info{
+    margin-left: 110px;
+    padding: 0 10px;
+}
+
+.about-us .info p{
+    text-align: justify;
+}
+
+.about-us .info li{
+    display: inline-block;
+}
+
+.about-us .work-time{
+    padding: 0 10px;
+}
+
+.about-us .work-time .date {
+    padding: 5px 0px;
+    border-bottom-style: dotted;
+}
+
+.work-time .time{
+    text-align: right;
+}
+
+.about-us .twitter{
+    padding: 0 10px;
+}
+
+.about-us .twitter p {
+    margin: 0px 10px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.about-us .subscribe{
+    padding: 0 10px;
+}
+
+.about-us .subscribe .send-btn {
+    text-transform:capitalize;
+    font-size: 13px;
+    letter-spacing: 1px;
+    background-color: #ff0e83;
+    border:none;
+    border-radius: 0.5em;  
+    cursor: pointer;
+    color: black;
+    width: 100px;
+    height: 33px;
+    margin: 10px 0px;
+}
+
+.about-us .subscribe .send-btn:hover {
+    background-color: white;
+    border-style: solid;
+    border-color: #ff0e83; 
+    border-inline: 0.5em;
+}
+
+.about-us .subscribe input {
+    width: 90%;
+    padding: 10px
+}
+
+.about-us .subscribe p {
+    margin: 0px 10px;
+    text-align: justify;
+    line-height: 25px;
+}
+/* END ABOUTUS */
+
+/* START FOOTER */
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 40px;
+}
+
+.footer .link-web{
+    color: #ff0e83;
+    text-decoration: none;
+}
+
+.footer .link-web:hover{
+    color: white;
+    cursor: pointer;
+}
+/* END FOOTER */
+
